@@ -15,3 +15,5 @@ So in this application I want to sent mail notification to admin if a user subsc
 ### Step - 2
 - Create a view for Newsletter email subscription form. My case - index.blade.php
 - Create a controller for working with Newsletter related things. My case - NewsletterController.php
+### Step - 3
+- Create a migration for saving user email. My case - subscribers.
