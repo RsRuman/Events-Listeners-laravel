@@ -12,4 +12,6 @@ So in this application I want to sent mail notification to admin if a user subsc
 
 ### Step - 1
 - Setup Mailtrap for catch mail. So configure your mailing configuration in .env file.
-
+### Step - 2
+- Create a view for Newsletter email subscription form. My case - index.blade.php
+- Create a controller for working with Newsletter related things. My case - NewsletterController.php
