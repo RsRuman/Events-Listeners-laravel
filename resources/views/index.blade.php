@@ -24,7 +24,8 @@
 <div class="text-center" style="margin-top: 20%; margin-bottom: -50%">
     <h1 style="color: white;">Subscribe Our Newsletter To Know Our Latest Events</h1>
     <div class="mt-2">
-        <form>
+        <form action="{{ route('subscribe') }}" method="post">
+            @csrf
             <label for="email" style="color: white; font-size: 1rem;">Email: </label>
             <input type="email" name="email" class="" placeholder="Enter your email" style="height: 2.5rem;width: 20rem;outline: green; border-radius: 5px;padding: 10px;">
             <button type="submit" style="padding: 12px 14px 12px 14px;border-radius: 5px;background: deepskyblue;color: white;font-weight: bold;">Subscribe</button>

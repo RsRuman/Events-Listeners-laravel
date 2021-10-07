@@ -19,3 +19,5 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::get('/', [NewsletterController::class, 'index']);
+
+Route::post('/subscribe', [NewsletterController::class, 'store'])->name('subscribe');
